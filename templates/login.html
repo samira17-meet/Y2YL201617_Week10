@@ -1,0 +1,19 @@
+<html>
+<head>
+	<h1> Log In Here </h1>
+</head>
+<body>
+	<form action="{{url_for('login')}}" method="post">
+		Email Adress:<br>
+		<input type="text" name="email"><br>
+		Password:<br>
+		<input type="password" name="password"><br>
+		<input type="submit" value="Login">
+	</form>
+
+<p> Don't have an account? Create one <a href={{url_for('newCustomer')}}> Here</a>
+
+</body>
+
+
+</html>
